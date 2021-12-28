@@ -1,0 +1,93 @@
+evelop an application for the below requirement:
+
+A Patient who requires consultation of a doctor via online for the medical diagnosis/advice.
+
+The below should be the process to be followed by the patient to reserve the consultation appointment online.
+
+                                            I.            Patients need to register by entering the following details: -
+
+a.       First name
+
+b.      Last name
+
+c.       Age
+
+d.      Email address
+
+e.      Phone number
+
+                                          II.            Once registration is completed, patient can use their email as username and password will be sent to their email.  
+
+                                        III.            All Form fields Should be validated for empty field and valid data with following constraints.
+
+a.       Age should not be negative and greater than 120.
+
+b.      First name should contain only Alphabets.
+
+c.       Last name can contain ‘.’ Roman Numerical.
+
+d.      Email address pattern should be valid.
+
+e.      Phone number should be 12 digits and can have only ‘+ ‘symbol(Hint use regex to validate pattern )
+
+                                        IV.            After successful login, they need to upload existing medical records as image or in pdf format. create form for multifile upload in portal page under the navigation menu which will be available in the name of ‘Medical Record upload’.
+
+                                          V.            They can navigate to request for online consultation from the nav bar
+
+a.       In consultation page it needs to display the following type of consultation:
+
+                                                                                                   i.      General Consultation
+
+                                                                                                 ii.      Speciality Consultation
+
+b.       Language can then be chosen by the patient for him to communicate.
+
+                                                                                                   i.       Minimum 1 language should be provided and should be able to choose more than one language.
+
+c.        They can then choose date of appointment.
+
+                                        VI.            On successful submission of above details, a web page should provide information whether appointment is successfully scheduled or not. The appointment status and other details can then be sent via email to the registered email address of the user.
+
+                                      VII.            On successful login, it needs to revisit patient portal in portal home screen which should display upcoming scheduled appointments.
+
+                                     They can create new appointment while accessing from the portal’s home page.
+
+                                    VIII.            Create an admin portal where an admin should be able to perform following actions.
+
+a.       Search, approve, reject an appointment.
+
+b.      Add, Delete, Update patient Details.
+
+c.       Disable or enable patient. 
+
+General Instruction: -
+
+1.The design of all the webpages should be responsive.
+
+2. create a webpage template which can be reused for common template such as header, footer and navigation bar.
+
+3. The header of the portal page should contain logout button.
+
+4. Should maintain proper page alignments and typography standards for clear and attentive reading.
+
+5.Use minimal colour selection for UI and should engage the users to focus on the content. 
+
+6. Place your UI elements strategically: draw users’ attention to the most important information on the page and make it convenient for them to scan it through.
+
+7. Should display “Task-relevant information only”.
+
+8. Authentication and authorization should be properly implemented
+
+9.Admin portal should be in a separate path eg:-
+
+        Online consultation management system is application abbreviated as OCMS or app can be the base of the URL path
+
+                        OCMS/portal àis for patient.
+
+                        OCMS/admin/Portalà is for admin.
+
+ 
+
+ 
+
+

@@ -1,0 +1,107 @@
+Develop an application for the following Requirement: -
+
+A citizen can request an appointment for vaccination dosage by searching vaccination centre nearby and providing pin code.
+
+The health service employee should be able to upload vaccination stock details and available date location wise.
+
+A citizen can register by providing following details.
+
+·         First name
+
+·         Middle Name
+
+·         Last Name
+
+·         Social identification no (Aadhar/SSN)
+
+·         Email
+
+·         Phone no
+
+·         Address
+
+·         Pin code
+
+ 
+
+ 
+
+On successful Registration an e mail which contains generated password  will be sent to the user’s registered email address for them to log in further to view the dashboard.
+
+Users can view the list of location based on the pin code provided while registering on the dashboard. Users can also change the pin code for searching the vaccination centre in that location.
+
+On choosing the vaccination centre, it will show the available date. Users can choose date and time as per their convenience. It should then send vaccination schedule based on their confirmation and adds one head count in database for centre.
+
+Users can view the upcoming schedule if any whenever they log in.
+
+ 
+
+The health service employee will then login via employee service portal
+
+On successful login, it will redirect to the dashboard.
+
+The health service employee will be able to perform the below actions on the dashboard.
+
+·         Reschedule vaccination dates for the vaccination centre.
+
+·         Update stocks by using head count as unit.
+
+·         Close a vaccination centre.
+
+·         Reject a vaccination appointment requested by the user and should be able to provide the reason for rejection on separate screen.
+
+·         Search vaccination centre by pin code or city/town/village’s name.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+General Instruction: -
+
+1.       The design of all the webpages should be responsive.
+
+ 
+
+2.        Create a webpage template which can be reused for common template such as header, footer, and navigation bar.
+
+ 
+
+3.       The header of the portal page should contain logout button.
+
+ 
+
+4.       Should maintain proper page alignments and typography standards for clear and attentive reading.
+
+ 
+
+5.       Use minimal colour selection for UI and should engage the users to focus on the content. 
+
+ 
+
+6.       Place your UI elements strategically: draw users’ attention to the most important information on the page and make it convenient for them to scan it through.
+
+ 
+
+7.       Should display ‘Task-relevant information only’.
+
+ 
+
+8.       Authentication and authorization should be properly implemented
+
+ 
+
+ 
+
+9.       Admin portal should be in a separate path eg:-
+
+Online consultation management system is application abbreviated as OCMS or app can be       the base of the URL path
+
+                        evms/portal àis for Users.
+
+                        evms/admin/Portalà is for health service employees.
